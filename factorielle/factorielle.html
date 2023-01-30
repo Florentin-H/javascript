@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+<SCRIPT Language="JavaScript">
+<!--
+// La fonction Factorielle (version récursive)
+function factorielle(n)
+{
+if (n<0) {
+alert ("Veuillez Saisir Un Entier Positif ou null");
+return "### Erreur ###";
+}
+else {
+if (n == 0) {
+return 1;
+}
+else {
+return n * factorielle (n-1);
+}
+}
+}
+//-->
+</SCRIPT>
+
+<FORM name="form">
+
+<p>Entrer Un Entier Positif : <input type="text" size="35" name="input" value="0">
+
+<p><input type="button" value="Factorielle" onclick="document.form.output.value=factorielle(document.form.input.value);">
+
+<p>Entrer Le Résultat : <input type="text" size="40" name="output" value="1">
+
+</FORM>
