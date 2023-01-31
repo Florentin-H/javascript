@@ -1,0 +1,28 @@
+#main {
+    display: flex;
+}
+
+.svg-area {
+    flex: 3;
+}
+
+.text-area {
+    flex:1;
+}
+
+.svg-area svg .land {
+  fill: #cccccc;
+  fill-opacity: 1;
+  stroke: white;
+  stroke-opacity: 1;
+  stroke-width: 0.5;
+  cursor: pointer;
+}
+
+.svg-area svg .land:hover {
+  fill: red;
+}
+
+.svg-area svg .land.selected {
+    fill: red
+}

@@ -24,13 +24,14 @@
         const divResultat = document.querySelector("#resultat");
         const checkbox = document.querySelector("#checkbox");
         checkbox.addEventListener("click", function (){
-            if (checkbox.checked){
+            if (checkbox.checked) {
 
                 let nombre = inputAire.value;
                 resultat = Math.PI * nombre *2
                 divResultat.innerHTML = "périmètre du cercle de rayon:  " + nombre + "=" + Math.round(resultat*100)/100;
             }    
-            else{let nombre = inputAire.value;
+            else {
+                let nombre = inputAire.value;
             resultat =   Math.PI * Math.pow(nombre,2)
             divResultat.innerHTML = "aire du cercle de rayon:  " + nombre + "=" + Math.round(resultat*100)/100;
             }
