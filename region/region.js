@@ -21,8 +21,14 @@ const showInformations = (element) => {
 }
 
 lands.forEach((land) => {
+    
+    land.addEventListener('click', (e) => {
+      const oldSelected = document.querySelector('.selected')
+      console.log(oldSelected)
+      if (oldSelected){
+          oldSelected.classList.remove('selected')
 
-  land.addEventListener('click', (e) => {
+      }
     const landClickedElement = e.target;
     showInformations(landClickedElement)
   });
