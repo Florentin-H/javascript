@@ -1,11 +1,11 @@
 window.onload = () => {
     let button = document.querySelector("#btn");
   
-    // Function for calculating BMI
-    button.addEventListener("click", calculateBMI);
+    // Function for calculating imc
+    button.addEventListener("click", calculateImc);
 };
   
-function calculateBMI() {
+function calculateImc() {
   
     /* Getting input from user into height variable.
     Input is string so typecasting is necessary. */
@@ -31,26 +31,26 @@ function calculateBMI() {
         result.innerHTML = "Donnez une valeur de poids correct!";
     }
   
-    // If both input is valid, calculate the bmi
+    // If both input is valid, calculate the imc
     
   
         // Fixing upto 2 decimal places
-        let bmi = (weight / ((height * height) 
+        let imc = (weight / ((height * height) 
                             / 10000)).toFixed(2);
   
-        // Dividing as per the bmi conditions
-        if (bmi < 18.6) 
+        // Dividing as per the imc conditions
+        if (imc < 18.6) 
         result.innerHTML = 
-        `<span style="color: blue;">Sous poids : ${bmi}</span>`;
+        `<span style="color: blue;">Sous poids : ${imc}</span>`;
             
   
-        else if (bmi >= 18.6 && bmi < 24.9) 
+        else if (imc >= 18.6 && imc < 24.9) 
         result.innerHTML = 
-        `<span style="color: green;">Normal : <span>${bmi}</span>`; 
+        `<span style="color: green;">Normal : ${imc}</span>`; 
                 
   
         else result.innerHTML = 
-        `<span style="color: red;">Surpoids : ${bmi}</span>`;
+        `<span style="color: red;">Surpoids : ${imc}</span>`;
             
     
 }

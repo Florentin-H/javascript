@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Générateur de mot de passe aléatoire</title>
+    <script>
+      function generatePassword(difficulty) {
+        let password = '';
+        let characters = '';
+  
+        switch (difficulty) {
+          case 'easy':
+            characters = 'abcdefghijklmnopqrstuvwxyz';
+            break;
+          case 'medium':
+            characters = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
+            break;
+          case 'hard':
+            characters = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_+-=[]{}|;:\'",.<>/?`~';
+            break;
+          default:
+            characters = 'abcdefghijklmnopqrstuvwxyz';
+            break;
+        }
+  
+        for (let i = 0; i < 18; i++) {
+          password += characters.charAt(Math.floor(Math.random() * characters.length));
+        }
+  
+        return password;
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Générateur de mot de passe aléatoire</h1>
+    <p>
+      Niveau de difficulté :
+      <select id="difficulty">
+        <option value="easy">Facile</option>
+        <option value="medium">Moyen</option>
+        <option value="hard">Difficile</option>
+      </select>
+    </p>
+    <button onclick="document.getElementById('password').value = generatePassword(document.getElementById('difficulty').value)">
+      Générer mot de passe
+    </button>
+    <p>
+      Mot de passe généré :
+      <input type="text" id="password" readonly />
+    </p>
+  </body>
+</html>
