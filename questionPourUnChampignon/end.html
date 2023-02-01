@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="end" class="flex-cener flex-column">
+            <h1 id="finalScore">0</h1>
+            <form class="end-form-container">
+                <h2 id="end-text">Entrez votre nom ou pseudo pour sauvegarder votre score!</h2>
+                <input type="text" name="name" id="username" placeholder="entrez votre nom">
+                <button class="btn" id="saveScoreBtn" type="submit" onclick="saveHighScore(event)" disable>Save</button>
+
+            </form>
+            <a href="/game.html" class="btn">Rejouer</a>
+            <a href="/" class="btn">Accueil</a>
+        </div>
+    </div>
+    <script src="end.js"></script>
+</body>
+</html>
