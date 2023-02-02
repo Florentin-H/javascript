@@ -1,0 +1,26 @@
+body{
+    background-color: grey;
+    text-align: center;
+}
+
+.container{
+    display: inline-block;
+    background: black;
+    
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+button{
+width: 10rem;
+height: 10rem;
+font-weight: 50px;
+font-size: 5rem;
+float: left;
+}
+div{
+    overflow: hidden;
+    margin: 0 auto;
+
+}
