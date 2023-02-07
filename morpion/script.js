@@ -1,31 +1,36 @@
-const squares = document.querySelectorAll('button')
+const squares = document.querySelectorAll('.choice')
 const reset = document.querySelector('.reset')
 const winnerZone = document.querySelector('.winnerZone')
 const symbols = ['x','o']
 let tour = 0
 let draw = 0
+let game = true
+ 
 
-for (const square of squares ){
+    for (const square of squares ){
     
-    square.addEventListener('click', function(){
-        if(square.innerHTML.length == 0){
-            this.innerHTML = symbols[tour]
-            win = tour
-            tour++
-            tour= tour% 2
-            draw++
-            
-            if (isVictory(squares)) {
-                winnerZone.innerHTML = symbols[win] + " a gagné";
-			}else if (draw == 9) {
-                winnerZone.innerHTML = " Match nul";
-                ;
-            }
-        };
-        
-     
-        })
-}
+        square.addEventListener('click', function(){
+            if(square.innerHTML.length == 0){
+                this.innerHTML = symbols[tour]
+                win = tour
+                tour++
+                tour= tour% 2
+                draw++
+                
+                if (isVictory(squares)) {
+                    winnerZone.innerHTML = symbols[win] + " a gagné";
+                    squares.forEach(element => {
+                        element.disabled = true;
+                    });
+                }else if (draw == 9) {
+                    winnerZone.innerHTML = " Match nul";
+                    ;
+                }
+            };
+            })
+    }
+    
+
 
 function isVictory(squares) {
 	let combs = [
@@ -59,6 +64,9 @@ function isVictory(squares) {
                     reset.innerHTML = "reset"
                     winnerZone.innerHTML = ""
                     draw = 0
+                    squares.forEach(element => {
+                        element.disabled = false;
+                    });
             }
     })
         
