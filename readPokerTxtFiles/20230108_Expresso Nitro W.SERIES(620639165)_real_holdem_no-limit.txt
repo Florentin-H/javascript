@@ -1,0 +1,195 @@
+Winamax Poker - Tournament "Expresso Nitro W.SERIES" buyIn: 0.46€ + 0.04€ level: 1 - HandId: #2665624916291747841-1-1673221483 - Holdem no limit (10/20) - 2023/01/08 23:44:43 UTC
+Table: 'Expresso Nitro W.SERIES(620639165)#0' 3-max (real money) Seat #3 is the button
+Seat 1: flofloss19 (300)
+Seat 2: AK-FISHERMAN (300)
+Seat 3: Anyole_SW (300)
+*** ANTE/BLINDS ***
+flofloss19 posts small blind 10
+AK-FISHERMAN posts big blind 20
+Dealt to flofloss19 [2d 6c]
+*** PRE-FLOP *** 
+Anyole_SW calls 20
+flofloss19 folds
+AK-FISHERMAN checks
+*** FLOP *** [8c 7h Jd]
+AK-FISHERMAN bets 50
+Anyole_SW calls 50
+*** TURN *** [8c 7h Jd][Qh]
+AK-FISHERMAN bets 53
+Anyole_SW calls 53
+*** RIVER *** [8c 7h Jd Qh][3c]
+AK-FISHERMAN bets 177 and is all-in
+Anyole_SW calls 177 and is all-in
+*** SHOW DOWN ***
+AK-FISHERMAN shows [9c Jh] (One pair : Jacks)
+Anyole_SW shows [Qs Js] (Two pairs : Queens and Jacks)
+Anyole_SW collected 610 from pot
+*** SUMMARY ***
+Total pot 610 | No rake
+Board: [8c 7h Jd Qh 3c]
+Seat 2: AK-FISHERMAN (big blind) showed [9c Jh] and lost with One pair : Jacks
+Seat 3: Anyole_SW (button) showed [Qs Js] and won 610 with Two pairs : Queens and Jacks
+
+
+Winamax Poker - Tournament "Expresso Nitro W.SERIES" buyIn: 0.46€ + 0.04€ level: 1 - HandId: #2665624916291747841-2-1673221525 - Holdem no limit (10/20) - 2023/01/08 23:45:25 UTC
+Table: 'Expresso Nitro W.SERIES(620639165)#0' 3-max (real money) Seat #3 is the button
+Seat 1: flofloss19 (290)
+Seat 3: Anyole_SW (610)
+*** ANTE/BLINDS ***
+Anyole_SW posts small blind 10
+flofloss19 posts big blind 20
+Dealt to flofloss19 [Th 2s]
+*** PRE-FLOP *** 
+Anyole_SW calls 10
+flofloss19 checks
+*** FLOP *** [4h 9d Kc]
+flofloss19 checks
+Anyole_SW checks
+*** TURN *** [4h 9d Kc][7c]
+flofloss19 checks
+Anyole_SW checks
+*** RIVER *** [4h 9d Kc 7c][Ts]
+flofloss19 checks
+Anyole_SW checks
+*** SHOW DOWN ***
+Anyole_SW shows [4d 5d] (One pair : 4)
+flofloss19 shows [Th 2s] (One pair : Tens)
+flofloss19 collected 40 from pot
+*** SUMMARY ***
+Total pot 40 | No rake
+Board: [4h 9d Kc 7c Ts]
+Seat 1: flofloss19 (big blind) showed [Th 2s] and won 40 with One pair : Tens
+Seat 3: Anyole_SW (small blind) (button) showed [4d 5d] and lost with One pair : 4
+
+
+Winamax Poker - Tournament "Expresso Nitro W.SERIES" buyIn: 0.46€ + 0.04€ level: 2 - HandId: #2665624916291747841-3-1673221562 - Holdem no limit (15/30) - 2023/01/08 23:46:02 UTC
+Table: 'Expresso Nitro W.SERIES(620639165)#0' 3-max (real money) Seat #1 is the button
+Seat 1: flofloss19 (310)
+Seat 3: Anyole_SW (590)
+*** ANTE/BLINDS ***
+flofloss19 posts small blind 15
+Anyole_SW posts big blind 30
+Dealt to flofloss19 [4c Qh]
+*** PRE-FLOP *** 
+flofloss19 folds
+Anyole_SW collected 45 from pot
+*** SUMMARY ***
+Total pot 45 | No rake
+Seat 3: Anyole_SW (big blind) won 45
+
+
+Winamax Poker - Tournament "Expresso Nitro W.SERIES" buyIn: 0.46€ + 0.04€ level: 2 - HandId: #2665624916291747841-4-1673221567 - Holdem no limit (15/30) - 2023/01/08 23:46:07 UTC
+Table: 'Expresso Nitro W.SERIES(620639165)#0' 3-max (real money) Seat #3 is the button
+Seat 1: flofloss19 (295)
+Seat 3: Anyole_SW (605)
+*** ANTE/BLINDS ***
+Anyole_SW posts small blind 15
+flofloss19 posts big blind 30
+Dealt to flofloss19 [2d 3s]
+*** PRE-FLOP *** 
+Anyole_SW folds
+flofloss19 collected 45 from pot
+*** SUMMARY ***
+Total pot 45 | No rake
+Seat 1: flofloss19 (big blind) won 45
+
+
+Winamax Poker - Tournament "Expresso Nitro W.SERIES" buyIn: 0.46€ + 0.04€ level: 2 - HandId: #2665624916291747841-5-1673221570 - Holdem no limit (15/30) - 2023/01/08 23:46:10 UTC
+Table: 'Expresso Nitro W.SERIES(620639165)#0' 3-max (real money) Seat #1 is the button
+Seat 1: flofloss19 (310)
+Seat 3: Anyole_SW (590)
+*** ANTE/BLINDS ***
+flofloss19 posts small blind 15
+Anyole_SW posts big blind 30
+Dealt to flofloss19 [7s 4s]
+*** PRE-FLOP *** 
+flofloss19 folds
+Anyole_SW collected 45 from pot
+*** SUMMARY ***
+Total pot 45 | No rake
+Seat 3: Anyole_SW (big blind) won 45
+
+
+Winamax Poker - Tournament "Expresso Nitro W.SERIES" buyIn: 0.46€ + 0.04€ level: 2 - HandId: #2665624916291747841-6-1673221575 - Holdem no limit (15/30) - 2023/01/08 23:46:15 UTC
+Table: 'Expresso Nitro W.SERIES(620639165)#0' 3-max (real money) Seat #3 is the button
+Seat 1: flofloss19 (295)
+Seat 3: Anyole_SW (605)
+*** ANTE/BLINDS ***
+Anyole_SW posts small blind 15
+flofloss19 posts big blind 30
+Dealt to flofloss19 [9s 7d]
+*** PRE-FLOP *** 
+Anyole_SW calls 15
+flofloss19 checks
+*** FLOP *** [3c Kd 6c]
+flofloss19 checks
+Anyole_SW checks
+*** TURN *** [3c Kd 6c][Ts]
+flofloss19 checks
+Anyole_SW bets 30
+flofloss19 folds
+Anyole_SW collected 90 from pot
+*** SUMMARY ***
+Total pot 90 | No rake
+Board: [3c Kd 6c Ts]
+Seat 3: Anyole_SW (small blind) (button) won 90
+
+
+Winamax Poker - Tournament "Expresso Nitro W.SERIES" buyIn: 0.46€ + 0.04€ level: 3 - HandId: #2665624916291747841-7-1673221609 - Holdem no limit (20/40) - 2023/01/08 23:46:49 UTC
+Table: 'Expresso Nitro W.SERIES(620639165)#0' 3-max (real money) Seat #1 is the button
+Seat 1: flofloss19 (265)
+Seat 3: Anyole_SW (635)
+*** ANTE/BLINDS ***
+flofloss19 posts small blind 20
+Anyole_SW posts big blind 40
+Dealt to flofloss19 [4c 4d]
+*** PRE-FLOP *** 
+flofloss19 raises 225 to 265 and is all-in
+Anyole_SW folds
+flofloss19 collected 305 from pot
+*** SUMMARY ***
+Total pot 305 | No rake
+Seat 1: flofloss19 (small blind) (button) won 305
+
+
+Winamax Poker - Tournament "Expresso Nitro W.SERIES" buyIn: 0.46€ + 0.04€ level: 3 - HandId: #2665624916291747841-8-1673221615 - Holdem no limit (20/40) - 2023/01/08 23:46:55 UTC
+Table: 'Expresso Nitro W.SERIES(620639165)#0' 3-max (real money) Seat #3 is the button
+Seat 1: flofloss19 (305)
+Seat 3: Anyole_SW (595)
+*** ANTE/BLINDS ***
+Anyole_SW posts small blind 20
+flofloss19 posts big blind 40
+Dealt to flofloss19 [4c 8d]
+*** PRE-FLOP *** 
+Anyole_SW folds
+flofloss19 collected 60 from pot
+*** SUMMARY ***
+Total pot 60 | No rake
+Seat 1: flofloss19 (big blind) won 60
+
+
+Winamax Poker - Tournament "Expresso Nitro W.SERIES" buyIn: 0.46€ + 0.04€ level: 3 - HandId: #2665624916291747841-9-1673221619 - Holdem no limit (20/40) - 2023/01/08 23:46:59 UTC
+Table: 'Expresso Nitro W.SERIES(620639165)#0' 3-max (real money) Seat #1 is the button
+Seat 1: flofloss19 (325)
+Seat 3: Anyole_SW (575)
+*** ANTE/BLINDS ***
+flofloss19 posts small blind 20
+Anyole_SW posts big blind 40
+Dealt to flofloss19 [6d Ah]
+*** PRE-FLOP *** 
+flofloss19 raises 285 to 325 and is all-in
+Anyole_SW calls 285
+*** FLOP *** [6h 5c 4s]
+*** TURN *** [6h 5c 4s][6s]
+*** RIVER *** [6h 5c 4s 6s][9s]
+*** SHOW DOWN ***
+flofloss19 shows [6d Ah] (Trips of 6)
+Anyole_SW shows [5s Qs] (Flush Queen high)
+Anyole_SW collected 650 from pot
+*** SUMMARY ***
+Total pot 650 | No rake
+Board: [6h 5c 4s 6s 9s]
+Seat 1: flofloss19 (small blind) (button) showed [6d Ah] and lost with Trips of 6
+Seat 3: Anyole_SW (big blind) showed [5s Qs] and won 650 with Flush Queen high
+
+
