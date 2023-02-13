@@ -4,12 +4,24 @@ const image = document.getElementById("image")
 const pokeNumber = document.getElementById("number")
 const pokeName = document.getElementById("name")
 const pokemonList = document.querySelector('.pokemon-list')
-
 const limit = 20;
 let index = 0;
+let totalPokemon = 0
 
 
-const searchInput = document.querySelector("#search-input");
+const searchInput = document.getElementById("search-input");
+searchInput.addEventListener("input", function(e) {
+  const searchValue = e.target.value;
+  const pokemonCards = document.querySelectorAll(".pokemon-card");
+  pokemonCards.forEach(card => {
+    const pokemonName = card.querySelector("h3").textContent;
+    if (pokemonName.toLowerCase().includes(searchValue.toLowerCase())) {
+      card.style.display = "block";
+    } else {
+      card.style.display = "none";
+    }
+  });
+});
 
 
 
@@ -61,7 +73,7 @@ const loadPokemons = async () => {
 
             pokemonList.appendChild(button);
         })
-
+console.log(data);
         
     } catch (e) {
         console.log(e)
@@ -87,6 +99,8 @@ window.onclick = function(event) {
 modalCloser.addEventListener('click', () => {
         modal.style.display = "none";
 })
+
+
 
 
 loadPokemons()
